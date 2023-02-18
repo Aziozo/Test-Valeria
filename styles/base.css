@@ -14,12 +14,20 @@
   display: flex;
   justify-content: space-between;
 }
+.about .container {
+  gap: 64px;
+}
 
 .about__dscr {
   max-width: 475px;
 }
 .about__dscr p {
   margin-top: 14px;
+}
+
+.about__img {
+  max-width: 539px;
+  max-height: 319px;
 }
 
 .block {
